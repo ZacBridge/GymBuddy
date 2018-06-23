@@ -6,7 +6,10 @@
   },
   "parser": "babel-eslint",
   "extends": "airbnb",
-  "rules": { "react/jsx-filename-extension":
-    [ 1, { "extensions": [ ".js", ".jsx" ] } ]
+  "rules": {
+    "react/jsx-filename-extension": [ 1, { "extensions": [ ".js", ".jsx" ] } ],
+    "react/prefer-stateless-function": [0, { "ignorePureComponents": true }],
+    "react/destructuring-assignment": [0, false],
+    "react/prop-types": [0]
   }
 }
